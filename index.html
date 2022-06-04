@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>5 taburi verticale in Bootstrap </title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<section class="pt-5 main-content">
+  <div class="container">
+    <h1 class="text-center"><b>5 taburi verticale in Bootstrap</b></h1>
+    <div class="d-flex bg-white flex-row shadow nav-border">
+      <div class="d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3 nav-shadow pb-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+          <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-home"></i> </div>
+          Acasa</button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+          <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-user"></i> </div>
+          Profil</button>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+          <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-envelope"></i> </div>
+          Mesaje</button>
+          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+          <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-cog"></i> </div>
+          Setari</button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active pt-4 me-4" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <div class="d-flex align-items-center mb-3"> 
+				<img src="images/slide-1.jpg" alt="" class="img-cont me-3" >
+              <div>
+                <h3><strong>Aplicatie cu Bootstrap</strong></h3>
+                <p>Contine 5 taburi dispuse pe verticala.</p>
+				  <p>Contine cateva imagini inserate.</p>
+				  
+				  <p>Aplicatia are incorporata si un style.css.</p>
+              </div>
+            </div>
+            <p>Concep aplicatii folosind Bootstrap,CSS,HTML,JS.</p>
+          </div>
+          <div class="tab-pane fade pt-4 me-4" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <h4>Aplicatie noua</h4>
+            <p>Este o aplicatie mai complexa.</p>
+          </div>
+          <div class="tab-pane fade pt-4 me-4" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <h4>Aplicatie in care folosesc limbaje de programare</h4>
+            <p> Aplicatia contine paragrafe,divuri,clase,butoane,headdinguri,linkuri,scripturi.</p>
+          </div>
+          <div class="tab-pane fade pt-4 me-4" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <h4>Bootstrap</h4>
+            <p>Aplicatie cu taburi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>
